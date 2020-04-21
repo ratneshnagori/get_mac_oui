@@ -7,6 +7,10 @@ It will print Company Name associated with the MAC.
 
 Script can be run both as standalone or as function. 
 
+Script usage as standalone:-
+
+python3 get_mac_oui.py <mac-address>
+
 If the MAC address is valid the script will return the company information in string format :-
 
 *************************************
