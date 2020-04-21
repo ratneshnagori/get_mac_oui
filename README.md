@@ -3,7 +3,7 @@
 
 This python script will access the API and get all the information for provided MAC address.
 
-It will print Company Name associated with the MAC.
+It can either return or print the **Company Name** associated with the MAC.
 
 Script can be run both as standalone or as function. 
 
