@@ -8,8 +8,16 @@ It will print Company Name associated with the MAC.
 Script can be run both as standalone or as function. 
 
 Script usage as standalone:-
-
+===========================
 python3 get_mac_oui.py mac-address
+
+E.g. - python3 get_mac_oui.py d46a.3542.2800
+
+Script usage in Docker :-
+=========================
+docker run build-name mac-address 
+
+E.g. - docker run get_mac_oui d46a.3542.2800
 
 If the MAC address is valid the script will return the company information in string format :-
 
