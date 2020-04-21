@@ -14,6 +14,16 @@ python3 get_mac_oui.py mac-address
 E.g. - python3 get_mac_oui.py d46a.3542.2800
 ````
 
+**Script usage as function:-**
+```
+>>> from get_mac_oui import get_mac_oui
+>>> get_mac_oui("d46a.3542.2800")
+Query:
+	MAC address to check - d46a.3542.2800
+'Cisco Systems, Inc'
+>>>
+```
+
 **Script usage in Docker :-**
 ```
 docker run build-name mac-address 
