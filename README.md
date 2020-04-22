@@ -1,7 +1,7 @@
 # get_mac_oui
 ## Get OUI from MAC address
 
-This python script will access the API and get all the information for provided MAC address.
+This python script will access the macaddress.io API and get all the information for provided MAC address.
 
 It can either return or print the **Company Name** associated with the MAC.
 
