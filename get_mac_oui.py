@@ -22,7 +22,7 @@ def get_mac_oui(argv):
             return None
         
         #if encountered any other error while accessing APIs
-        print("Error:\n\tUnexpected error encountered. Code: " + result.status_code)
+        print("Error:\n\tUnexpected error encountered. Code: " + str(result.status_code))
         return None
 
 if __name__ ==  "__main__":
