@@ -1,0 +1,29 @@
+RANAGORI-M-P0Y0:get_mac_oui ranagori$ pytest get_mac_oui_test.py -s
+=========================================================================================================== test session starts ============================================================================================================
+platform darwin -- Python 3.7.4, pytest-5.4.1, py-1.8.1, pluggy-0.13.1
+rootdir: /Users/ranagori/Documents/get_mac_oui
+collected 4 items
+
+get_mac_oui_test.py
+Test 1:
+
+OUI is :Cisco Systems, Inc
+.
+Test 4:
+Error:
+	Could not find company information for the given MAC. Please check if MAC is correct
+
+OUI is :None
+.
+Test 3:
+Error:
+	Invalid MAC or OUI address was received.
+
+OUI is :None
+.
+Test 4:
+
+OUI is :Apple, Inc
+.
+
+============================================================================================================ 4 passed in 6.04s =============================================================================================================
