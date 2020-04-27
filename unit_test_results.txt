@@ -9,7 +9,7 @@ Test 1:
 
 OUI is :Cisco Systems, Inc
 .
-Test 4:
+Test 2:
 Error:
 	Could not find company information for the given MAC. Please check if MAC is correct
 

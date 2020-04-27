@@ -7,7 +7,7 @@ def test_get_mac_oui_1():
     print("\nOUI is :" + oui)
 
 def test_get_mac_oui_2():
-    print("\nTest 4: ")
+    print("\nTest 2: ")
     oui = get_mac_oui("d4ddddd")
     assert oui is None
     print("\nOUI is :" +str(oui))
